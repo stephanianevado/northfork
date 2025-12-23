@@ -24,6 +24,11 @@
     "web-vitals": "^2.1.4",
     "@babel/plugin-proposal-private-property-in-object": "7.21.11"
   },
+  "overrides": {
+    "sucrase": {
+      "glob": "^10.5.0"
+    }
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
